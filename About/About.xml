@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Power Tab 2</name>
+	<author>Compilatron, Owlchemist</author>
+	<packageId>Owlchemist.PowerTab</packageId>
+	<description>This is an overhaul and continuation of Compilatron's PowerTab mod, remake with the author's permission. This version functions much the same as before, but does so with zero overhead, requiring no harmony patches or any ticking components.
+	</description>
+	
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+</ModMetaData>

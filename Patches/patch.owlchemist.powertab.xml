@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[not(inspectorTabs) and comps/li[@Class="CompProperties_Power" or @Class="CompProperties_Battery"]]</xpath>
+		<value>
+			<inspectorTabs />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[comps/li[@Class="CompProperties_Power" or @Class="CompProperties_Battery"]]/inspectorTabs</xpath>
+		<value>
+			<li>PowerTab.PowerTab</li>
+		</value>
+	</Operation>
+</Patch>
