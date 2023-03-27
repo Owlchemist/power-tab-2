@@ -50,7 +50,7 @@ namespace PowerTab.UIElements
 			Rect barRect = new Rect(parentTabWidth / 2.5f + 43, y + 1, parentTabWidth / 2 - 25, GenUI.ListSpacing);
 			Widgets.FillableBar(barRect.ContractedBy(2), Mathf.Clamp(barFill, 0, 1)); 
 			
-			var unit = isBattery ? "Wd" : "W";
+			var unit = isBattery ? Mod.wattDays : Mod.watt;
 			string powerDrawStr = $" {power} {unit} ";
 			float textWidth = Text.CalcSize(powerDrawStr).x; // Calculate here instead of using cache since the numbers can change fast, and the cache can become outdated, leading to minor graphical issues.
 			

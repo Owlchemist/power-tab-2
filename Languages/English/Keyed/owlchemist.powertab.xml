@@ -3,4 +3,6 @@
 	<Battery>Battery</Battery>
 	<Producer>Producer</Producer>
 	<Consumer>Consumer</Consumer>
+	<Watt>W</Watt>
+	<WattDays>Wd</WattDays>
 </LanguageData>
