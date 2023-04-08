@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Battery>Аккумуляторы</Battery>
+  <Producer>Производители</Producer>
+  <Consumer>Потребители</Consumer>
+  <Watt>W</Watt>
+  <WattDays>Wd</WattDays>
+
+</LanguageData>
